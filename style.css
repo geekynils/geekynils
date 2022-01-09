@@ -1,0 +1,83 @@
+h1 {
+    font-weight: bolder;
+}
+
+/* Use body and not * for default settings bc of inheritance. */
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 11pt;
+    line-height: 1.5;
+    background-color: #E2ECE8;
+
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+pre {
+    font-weight: monospace, sans-serif;
+}
+
+#nav {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    font-weight: bolder;
+}
+
+#articles {
+    background-color: white;    
+    border-radius: 7px;
+    max-width: 22cm;
+    padding: 0.5cm;
+}
+
+#about {
+    background-color: white;    
+    border-radius: 7px;
+    max-width: 22cm;
+    padding: 0.5cm;
+}
+
+.linkButton {
+    color:  white;
+    background-color: #007973;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* only add space betwen buttons */
+.linkButton  + .linkButton  {
+    margin-left: 10px;
+}
+
+article {
+    margin-bottom: 2cm;
+}
+
+footer {
+    margin-top: 1cm;
+}
+
+article h2{
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+article h3{
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #007973;
+}
+
+a:visited {
+
+}
+
+code {
+    font-family: Menlo, monospace;
+}
